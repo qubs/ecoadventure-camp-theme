@@ -1,6 +1,6 @@
 		</section>
 		<footer>
-			&copy; Queen's University Biological Station 2011-2016. All rights reserved.
+			&copy; Queen's University Biological Station 2011-2017. All rights reserved.
 			<div class="fb-like" data-href="https://www.facebook.com/qubsecoadventurecamp" data-send="false" data-layout="box_count" data-width="450" data-show-faces="true"></div>
 			<div>
 				<address>
