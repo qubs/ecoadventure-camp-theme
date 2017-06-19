@@ -1,7 +1,8 @@
 		</section>
 		<footer>
 			&copy; Queen's University Biological Station 2011-2017. All rights reserved.
-			<div class="fb-like" data-href="https://www.facebook.com/qubsecoadventurecamp" data-send="false" data-layout="box_count" data-width="450" data-show-faces="true"></div>
+			<div class="fb-like" data-href="https://www.facebook.com/qubsecoadventurecamp/" data-layout="box_count"
+			     data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
 			<div>
 				<address>
 					<strong>Queen's University Biological Station</strong> <br>
@@ -17,15 +18,13 @@
 				</address>
 			</div>
 			<div id="fb-root"></div>
-				<script>(function(d, s, id) {
-				  var js, fjs = d.getElementsByTagName(s)[0];
-				  if (d.getElementById(id)) return;
-				  js = d.createElement(s); js.id = id;
-				  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=124545631082440";
-				  fjs.parentNode.insertBefore(js, fjs);
+			<script>(function(d, s, id) {
+					var js, fjs = d.getElementsByTagName(s)[0];
+					if (d.getElementById(id)) return;
+					js = d.createElement(s); js.id = id;
+					js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=281392388944599";
+					fjs.parentNode.insertBefore(js, fjs);
 				}(document, 'script', 'facebook-jssdk'));</script>
-				<!-- <strong>Like our <a href="https://www.facebook.com/qubsecoadventurecamp">Facebook page</a>!</strong><br /> -->
-			</div>
 		</footer>
 		<?php wp_footer(); ?>
 	</body>
