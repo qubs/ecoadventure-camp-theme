@@ -13,7 +13,7 @@
 				<address>
 					<strong>Elbow Lake Environmental Education Centre</strong> <br>
 					1500 Hewlett-Packard Lane <br>
-					Perth Road Village, Ontario K0H 2L0 <br>
+					Perth Road Village, Ontario &nbsp; K0H 2L0 <br>
 					<strong>Telephone:</strong> 613-353-7968
 				</address>
 			</div>
