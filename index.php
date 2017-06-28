@@ -5,9 +5,9 @@
 		query_posts("cat=-22");
 		while(have_posts()): the_post();
 ?>
-			<div class="post">
-				<h2><?php the_title(); ?></h2>
-				<div class="date">Posted <?php the_time('F jS, Y'); ?></div>
+			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+				<h2 class="post-title"><?php the_title(); ?></h2>
+				<div class="post-date">Posted <?php the_time('F jS, Y'); ?></div>
 				<?php get_template_part('content', get_post_format()); ?>
 				<?php the_content(); ?>
 				<?php comments_popup_link(
@@ -16,7 +16,7 @@
                                   __('% Comments »', 'constructor'),
                                   'comments-link',
                                   __('Comments Closed', 'constructor')); ?>
-			</div>
+			</article>
 <?php
 		endwhile;
 	endif;
