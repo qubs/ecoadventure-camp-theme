@@ -50,9 +50,9 @@
 	<body <?php body_class(); ?>>
 		<div id="qubsBar">
 			<ul>
-				<li><a href="http://queensu.ca/qubs">QUBS</a></li>
+				<li><a href="https://qubs.ca">QUBS</a></li>
 				<li><a href="https://elbowlakecentre.ca">ELEEC</a></li>
-				<li><a href="http://dataverse.scholarsportal.info/dvn/dv/QUBS">QUBS Dataverse</a></li>
+				<li><a href="https://dataverse.scholarsportal.info/dataverse/QUBS">QUBS Dataverse</a></li>
 				<li><a href="https://opinicon.wordpress.com/">Opinicon Natural History</a></li>
 				<li class="active"><a href="/">Eco-Adventure Camp</a></li>
 				<li><a href="https://fowlerherbarium.ca">Fowler Herbarium</a></li>
