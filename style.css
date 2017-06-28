@@ -287,6 +287,22 @@ section.main img {
 	max-width: 100%;
 }
 
+section.main div.search-results article {
+	background-color: #F3F3F3;
+	margin: 20px 0;
+	padding: 30px;
+}
+section.main div.search-results article div.entry-summary p {
+	color: #777;
+}
+section.main div.search-results article div.entry-summary p:last-of-type {
+	margin-bottom: 0;
+}
+section.main div.search-results article footer.entry-footer {
+	margin-bottom: 0;
+	padding: 0;
+}
+
 footer {
 	border-top: 1px solid #C5C9C5;
 	max-width: 960px;
