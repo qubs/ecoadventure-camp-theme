@@ -14,7 +14,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
 		<script>
 			$(document).ready(function() {
-				if($(window).width() <= 740) {
+				if($(window).width() <= 830) {
 					$('nav').hide();
 				} else {
 					$('nav').show();
@@ -26,7 +26,7 @@
 				});
 			});
 			$(window).resize(function() {
-				if($(window).width() <= 740) {
+				if($(window).width() <= 830) {
 					$('nav').hide();
 				} else {
 					$('nav').show();

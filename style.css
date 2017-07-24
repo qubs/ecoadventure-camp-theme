@@ -493,11 +493,13 @@ button, input[type="button"], input[type="submit"] {
 	width: 33.3%;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 930px) {
 	#qubsBar {
 		display: none;
 	}
+}
 
+@media screen and (max-width: 830px) {
 	header h1 img {
 		max-width: 400px;
 		width: 100%;
