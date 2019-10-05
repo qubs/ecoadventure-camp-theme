@@ -52,7 +52,8 @@
 			<ul>
 				<li><a href="https://qubs.ca">QUBS</a></li>
 				<li><a href="https://elbowlakecentre.ca">ELEEC</a></li>
-				<li><a href="https://dataverse.scholarsportal.info/dataverse/QUBS">QUBS Dataverse</a></li>
+                <li><a href="https://research.qubs.ca">QUBS Projects</a></li>
+<!--				<li><a href="https://dataverse.scholarsportal.info/dataverse/QUBS">QUBS Dataverse</a></li>-->
 				<li><a href="https://opinicon.wordpress.com/">Opinicon Natural History</a></li>
 				<li class="active"><a href="/">Eco-Adventure Camp</a></li>
 				<li><a href="https://fowlerherbarium.ca">Fowler Herbarium</a></li>
@@ -61,7 +62,7 @@
 		</div>
 		<header>
 			<!-- <h1><?php bloginfo('name'); ?></h1> -->
-			<h1><img src="<?php echo get_template_directory_uri();?>/images/ecoadventure_horizontal.png"
+			<h1><img src="<?php echo get_template_directory_uri();?>/images/logo.svg"
 					 alt="<?php bloginfo('name'); ?>"></h1>
 			<button id="menuButton">&equiv;</button>
 			<nav>
